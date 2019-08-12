@@ -1,0 +1,20 @@
+//Creating database
+
+create database schedule;
+
+
+//Now using the database which we have created
+
+use schedule;
+
+
+//now creating tables
+
+create table schedule_details(Event_Type varchar(100),Time varchar(100),Date date);
+
+
+//inserting values into table
+
+insert into schedule_details values('Birthday','12:00:00','2019-08-08');
+insert into schedule_details values('marriage','5:00:00','2019-08-10');
+
